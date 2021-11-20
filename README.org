@@ -94,3 +94,12 @@
     for PyCharm Professional Edition.
     
     
+*** Setuptools
+    [[https://setuptools.pypa.io/en/latest/][Setuptools]] is a fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects.
+    For the purposes of this course, this tool will be used to enable packaging and installing independent Python components
+    that can [[https://setuptools.pypa.io/en/latest/pkg_resources.html][be dynamically recognized and imported]] in the Python application to extend it with additional features/functionalities.
+    Setuptools enables developing Python plugins that are prerequisites for developing extensible/pluggable applications.
+
+    
+
+    

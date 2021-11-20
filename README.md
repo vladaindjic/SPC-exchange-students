@@ -89,3 +89,11 @@ The recommended IDE for Python development is [PyCharm](https://www.jetbrains.co
 with the *uns.ac.rs* domain are eligible to submit the request to receive free one-year license
 for PyCharm Professional Edition.
 
+
+### Setuptools
+
+[Setuptools](https://setuptools.pypa.io/en/latest/) is a fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects.
+For the purposes of this course, this tool will be used to enable packaging and installing independent Python components
+that can [be dynamically recognized and imported](https://setuptools.pypa.io/en/latest/pkg_resources.html) in the Python application to extend it with additional features/functionalities.
+Setuptools enables developing Python plugins that are prerequisites for developing extensible/pluggable applications.
+
