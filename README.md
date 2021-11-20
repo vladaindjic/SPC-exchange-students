@@ -82,3 +82,10 @@ To uninstall the package (e.g. Django), type the following command:
 
     pip uninstall Django
 
+
+### PyCharm IDE
+
+The recommended IDE for Python development is [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux). Students that have e-mail addresses
+with the *uns.ac.rs* domain are eligible to submit the request to receive free one-year license
+for PyCharm Professional Edition.
+

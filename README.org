@@ -88,6 +88,9 @@
     #+end_src
 
    
-   
+*** PyCharm IDE
+    The recommended IDE for Python development is [[https://www.jetbrains.com/pycharm/download/#section=linux][PyCharm]]. Students that have e-mail addresses
+    with the /uns.ac.rs/ domain are eligible to submit the request to receive free one-year license
+    for PyCharm Professional Edition.
     
     
