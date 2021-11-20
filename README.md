@@ -8,7 +8,7 @@ The reminder of the document assumes that you are using Linux operating system.
 For other operating systems, you should consult the official documentation or [google.com](https://www.google.com/).
 
 
-# Python Programming Languages
+# Python Programming Language
 
 The programming language used for this course is [Python](https://en.wikipedia.org/wiki/Python_(programming_language)). The installation instructions can be found
 at the [official documentation](https://www.python.org/). Note that the majority of Linux distributions already have preinstall
@@ -93,7 +93,12 @@ for PyCharm Professional Edition.
 ### Setuptools
 
 [Setuptools](https://setuptools.pypa.io/en/latest/) is a fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects.
-For the purposes of this course, this tool will be used to enable packaging and installing independent Python components
+For the purposes of this course, this tool will be used to enable packaging, distributing and installing independent Python components
 that can [be dynamically recognized and imported](https://setuptools.pypa.io/en/latest/pkg_resources.html) in the Python application to extend it with additional features/functionalities.
 Setuptools enables developing Python plugins that are prerequisites for developing extensible/pluggable applications.
+
+A simple example of using the setuptools can be found inside [`ComponentsSimple` directory](https://github.com/vladaindjic/SPC-exchange-students/tree/master/ComponentsSimple).
+
+
+# The Project Specification - Extensible Code Editor
 

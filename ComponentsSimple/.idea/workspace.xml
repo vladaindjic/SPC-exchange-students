@@ -21,14 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdfa53bc-102e-40d2-b50b-a18c3ce7af13" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddOperator/plugin/operator/addition/add_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/AddOperator/plugin/operator/addition/add_operator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddOperator/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/AddOperator/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/plugin/operator/core/console_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/plugin/operator/core/console_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/plugin/operator/core/services/operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/plugin/operator/core/services/operator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubtractOperator/plugin/operator/subtraction/subtract_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubtractOperator/plugin/operator/subtraction/subtract_operator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubtractOperator/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubtractOperator/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.org" beforeDir="false" afterPath="$PROJECT_DIR$/../README.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.org" beforeDir="false" afterPath="$PROJECT_DIR$/README.org" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +310,7 @@
       <option name="presentableId" value="Default" />
       <updated>1479068981813</updated>
       <workItem from="1637411282653" duration="448000" />
-      <workItem from="1637417831733" duration="4378000" />
+      <workItem from="1637417831733" duration="5018000" />
     </task>
     <servers />
   </component>
@@ -348,22 +341,26 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="298" width="424" height="491" key="FileChooserDialogImpl/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637420377236" />
-    <state width="1878" height="464" key="GridCell.Tab.0.bottom" timestamp="1637421733796">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="464" key="GridCell.Tab.0.bottom" timestamp="1637423018418">
+      <screen x="3840" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="464" key="GridCell.Tab.0.bottom/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637421733796" />
-    <state width="1878" height="464" key="GridCell.Tab.0.center" timestamp="1637421733796">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="464" key="GridCell.Tab.0.bottom/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@3840.0.1920.1080" timestamp="1637423018418" />
+    <state width="1878" height="464" key="GridCell.Tab.0.center" timestamp="1637423018418">
+      <screen x="3840" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="464" key="GridCell.Tab.0.center/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637421733796" />
-    <state width="1878" height="464" key="GridCell.Tab.0.left" timestamp="1637421733796">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="464" key="GridCell.Tab.0.center/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@3840.0.1920.1080" timestamp="1637423018418" />
+    <state width="1878" height="464" key="GridCell.Tab.0.left" timestamp="1637423018418">
+      <screen x="3840" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="464" key="GridCell.Tab.0.left/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637421733796" />
-    <state width="1878" height="464" key="GridCell.Tab.0.right" timestamp="1637421733796">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="464" key="GridCell.Tab.0.left/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@3840.0.1920.1080" timestamp="1637423018418" />
+    <state width="1878" height="464" key="GridCell.Tab.0.right" timestamp="1637423018418">
+      <screen x="3840" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="464" key="GridCell.Tab.0.right/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637421733796" />
+    <state width="1878" height="464" key="GridCell.Tab.0.right/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@3840.0.1920.1080" timestamp="1637423018418" />
     <state x="2384" y="175" width="992" height="737" key="SettingsEditor" timestamp="1637418742906">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
