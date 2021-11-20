@@ -10,7 +10,7 @@
   The reminder of the document assumes that you are using Linux operating system.
   For other operating systems, you should consult the official documentation or [[https://www.google.com/][google.com]].
 
-* Python Programming Languages
+* Python Programming Language
 
   The programming language used for this course is [[https://en.wikipedia.org/wiki/Python_(programming_language)][Python]]. The installation instructions can be found
   at the [[https://www.python.org/][official documentation]]. Note that the majority of Linux distributions already have preinstall
@@ -96,10 +96,13 @@
     
 *** Setuptools
     [[https://setuptools.pypa.io/en/latest/][Setuptools]] is a fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects.
-    For the purposes of this course, this tool will be used to enable packaging and installing independent Python components
+    For the purposes of this course, this tool will be used to enable packaging, distributing and installing independent Python components
     that can [[https://setuptools.pypa.io/en/latest/pkg_resources.html][be dynamically recognized and imported]] in the Python application to extend it with additional features/functionalities.
     Setuptools enables developing Python plugins that are prerequisites for developing extensible/pluggable applications.
 
-    
+    A simple example of using the setuptools can be found inside [[https://github.com/vladaindjic/SPC-exchange-students/tree/master/ComponentsSimple][~ComponentsSimple~ directory]].
+
+
+* The Project Specification - Extensible Code Editor
 
     

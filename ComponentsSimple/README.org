@@ -1,0 +1,9 @@
+#+title: Setuptools Example
+#+author: Vladimir Inđić
+#+OPTIONS: date:nil
+#+OPTIONS: toc:nil
+
+* Simple Extensible Application
+
+  This Python project represents an example of using setuptools for developing simple extensible/pluggable application
+  in Python programming language.

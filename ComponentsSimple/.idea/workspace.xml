@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdfa53bc-102e-40d2-b50b-a18c3ce7af13" name="Default" comment="" />
+    <list default="true" id="fdfa53bc-102e-40d2-b50b-a18c3ce7af13" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddOperator/plugin/operator/addition/add_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/AddOperator/plugin/operator/addition/add_operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddOperator/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/AddOperator/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/plugin/operator/core/console_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/plugin/operator/core/console_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/plugin/operator/core/services/operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/plugin/operator/core/services/operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubtractOperator/plugin/operator/subtraction/subtract_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubtractOperator/plugin/operator/subtraction/subtract_operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubtractOperator/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubtractOperator/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.org" beforeDir="false" afterPath="$PROJECT_DIR$/../README.org" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,9 +37,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ConsoleOperatorPlugin1" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -21,8 +46,23 @@
       <replace>virtuelno</replace>
     </replaceStrings>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JupyterTrust" id="5c7a41c3-c8ba-4d28-9426-558af2e3e2bb" />
   <component name="ProjectId" id="1U90ar8Tt2awZOTfauoSeeeYoGv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,8 +70,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../vezbe/07/Vezbe7Resenje" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -271,11 +317,23 @@
       <option name="presentableId" value="Default" />
       <updated>1479068981813</updated>
       <workItem from="1637411282653" duration="448000" />
+      <workItem from="1637417831733" duration="4378000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -284,5 +342,34 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2663" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1637420377236">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="298" width="424" height="491" key="FileChooserDialogImpl/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637420377236" />
+    <state width="1878" height="464" key="GridCell.Tab.0.bottom" timestamp="1637421733796">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="464" key="GridCell.Tab.0.bottom/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637421733796" />
+    <state width="1878" height="464" key="GridCell.Tab.0.center" timestamp="1637421733796">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="464" key="GridCell.Tab.0.center/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637421733796" />
+    <state width="1878" height="464" key="GridCell.Tab.0.left" timestamp="1637421733796">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="464" key="GridCell.Tab.0.left/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637421733796" />
+    <state width="1878" height="464" key="GridCell.Tab.0.right" timestamp="1637421733796">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="464" key="GridCell.Tab.0.right/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637421733796" />
+    <state x="2384" y="175" width="992" height="737" key="SettingsEditor" timestamp="1637418742906">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2384" y="175" width="992" height="737" key="SettingsEditor/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1637418742906" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ComponentsSimple$console_main.coverage" NAME="console_main Coverage Results" MODIFIED="1637421729041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Core" />
   </component>
 </project>

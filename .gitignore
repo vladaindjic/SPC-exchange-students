@@ -1,0 +1,12 @@
+venv/
+# build and distributions directory
+ComponentsSimple/AddOperator/build/
+ComponentsSimple/AddOperator/dist/
+ComponentsSimple/AddOperator/operation_addition.egg-info/
+ComponentsSimple/Core/build/
+ComponentsSimple/Core/dist/
+ComponentsSimple/Core/operation_core.egg-info/
+ComponentsSimple/SubtractOperator/build/
+ComponentsSimple/SubtractOperator/dist/
+ComponentsSimple/SubtractOperator/operation_subtract.egg-info/
+

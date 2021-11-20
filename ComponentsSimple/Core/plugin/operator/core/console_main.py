@@ -1,60 +1,81 @@
 import pkg_resources
 
 
-def racunanje(operatori):
+def calc(operatori):
     try:
-        prvi = unesi_broj("Unesite prvi broj:")
-        drugi = unesi_broj("Unesite drugi broj:")
-
-        operator = odredi_operator(operatori)
-
-        rezultat = operator.operation(prvi, drugi)
-        print("Rezultat je: {}".format(rezultat))
+        first = input_number("Input the first number:")
+        second = input_number("Input the second number:")
+        # The user should choose the operator.
+        operator = determine_operator(operatori)
+        # Calls the "operation" method of a choosen operator
+        result = operator.operation(first, second)
+        print("Result is: {}".format(result))
     except Exception as e:
         print("Error: {}".format(e))
 
 
+def input_number(poruka):
+    success = False
+    while not success:
+        number, success = convert_to_int(input(poruka))
+    return number
 
-def unesi_broj(poruka):
-    nije_konvertovan = False
-    while not nije_konvertovan:
-        broj, nije_konvertovan = convert_to_int(input(poruka))
-    return broj
 
-
-def odredi_operator(operatori):
+def determine_operator(operatori):
     while True:
-        print("Izaberite operator koji zelite:")
+        print("Choose an operator from the following list:")
         for i, o in enumerate(operatori):
-            print(" {} {}  {}".format(i, o.operator_identifier(),o.operator_name()))
-        izbor=unesi_broj("Unesite redni broj opcije:")
-        if izbor >=0 and izbor < len(operatori):
-            return operatori[izbor]
+            print(" {} {}  {}".format(i, o.operator_identifier(), o.operator_name()))
+        choice = input_number("Type the option number:")
+        if 0 <= choice < len(operatori):
+            return operatori[choice]
 
 
-def convert_to_int(number,default=0):
+def convert_to_int(number_str, default=0):
+    """
+    This function tries to conver a string to an integer.
+    :param number_str: string representation of a int
+    :param default: default value to return if the conversion fails
+    :return: If the conversion succeeded, the first return value
+             is converted integer, while the second value is True.
+             Otherwise, the (default, False) is returned.
+    """
     try:
-        value=int(number)
-        return value,True
+        value = int(number_str)
+        return value, True
     except:
-        value=default
+        value = default
         return value, False
 
 
 def load_plugins():
-    operators=[]
+    """
+    This functions dynamically determines available plugins
+    that belong to the group 'core.operator'
+    """
+    operators = []
     for ep in pkg_resources.iter_entry_points(group='core.operator'):
         o = ep.load()
+        # Show the name of an entry point and the object exported
+        # as an entry point.
+        # In this case, entry point is the operator class.
         print("{} {}".format(ep.name, o))
+        # instantiate an operator
         operator = o()
         operators.append(operator)
     return operators
 
+
 def main():
+    """
+    Whe running "operator_main" command in the terminal session (console),
+    this function executes.
+    It dynamically load plugins and the ask user for the input.
+    """
     try:
-        operatori = load_plugins()
-        if (len(operatori) == 0):
-            print("Nije pronadjen ni jedan plugin")
+        operators = load_plugins()
+        if len(operators) == 0:
+            print("No available plugins.")
             return
     except Exception as e:
         print("Error: {}".format(e))
@@ -62,10 +83,11 @@ def main():
 
     while True:
         print("---------------------------------------------")
-        racunanje(operatori)
-        izbor = input("Unesite Enter za dalje ili q za izlaz:")
-        if izbor == "q":
+        calc(operators)
+        choice = input("Press enter to proceed or press q to exit the application.")
+        if choice == "q":
             break
+
 
 if __name__ == "__main__":
     main()
