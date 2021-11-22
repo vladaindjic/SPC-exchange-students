@@ -1,0 +1,26 @@
+#+title: GUI Desktop Application in Python
+#+author: Vladimir Inđić
+#+OPTIONS: toc:nil
+#+OPTIONS: date:nil
+
+
+* GUI Desktop Application Devolopment in Python
+
+To develop the GUI desktop application in Python, it is recommended
+to use [[https://wiki.python.org/moin/TkInter][~tkinter~]]. The installation instructions can be found [[https://tkdocs.com/tutorial/install.html][here]].
+To test whether the installation is done properly, check
+[[https://tkdocs.com/tutorial/install.html][/Verifying your Install/ section]]. Check /The Obligatory First Program/
+section too.
+
+A good starting point to learn some basics of tkinter library is to
+consult the official [[https://tkdocs.com/tutorial/][/TkDocs tutorial/]].
+The first example to examine can be found [[https://tkdocs.com/tutorial/firstexample.html][here]]. 
+
+**Note:** Don't spend to much time focusing on tkinter library concepts.
+The goal of this course is not to learn tkinter, but to use
+it as a context for developing the core of the extensible application
+that actually do something useful.
+
+* Text Widget
+
+
