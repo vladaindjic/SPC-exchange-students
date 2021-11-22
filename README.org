@@ -105,4 +105,5 @@
 
 * The Project Specification - Extensible Code Editor
 
+  The project specification for this course can be found in this document.
     
