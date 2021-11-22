@@ -16,11 +16,17 @@ A good starting point to learn some basics of tkinter library is to
 consult the official [[https://tkdocs.com/tutorial/][/TkDocs tutorial/]].
 The first example to examine can be found [[https://tkdocs.com/tutorial/firstexample.html][here]]. 
 
-**Note:** Don't spend to much time focusing on tkinter library concepts.
+*Note:* Don't spend to much time focusing on tkinter library concepts.
 The goal of this course is not to learn tkinter, but to use
 it as a context for developing the core of the extensible application
 that actually do something useful.
 
-* Text Widget
+* Text Editor in Tkinter
+
+The [[https://github.com/vladaindjic/SPC-exchange-students/blob/master/GUIAppExample/text_editor.py][~text_editor.py~]] contains the implementation of a simple text editor
+that is able to highlight some text that specifies given pattern. 
+Run the code and try to type some text. When the word ~text~ is typed,
+it should be bolded, colored to blue and the background should be changed to red. 
+
 
 
