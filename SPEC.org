@@ -33,3 +33,7 @@ At least three plugins for the following programming languages should be develop
 ** Notes
    The project is done individually. It should be hosted on the GitHub. The git version control
    system should be used all the time.
+
+   The syntax highlighting should be done by using tags on text widget's text like [[https://github.com/vladaindjic/SPC-exchange-students/blob/master/GUIAppExample/text_editor.py][in this example]].
+
+   It is not allowed to use any kind of ~highlight~ functions implemented by someone else (e.g. [[https://pygments.org/][Pygments]]).

@@ -100,5 +100,21 @@ Setuptools enables developing Python plugins that are prerequisites for developi
 A simple example of using the setuptools can be found inside [`ComponentsSimple` directory](https://github.com/vladaindjic/SPC-exchange-students/tree/master/ComponentsSimple).
 
 
+### Tkinter
+
+A recommended library to be used for GUI desktop application in Python is [`tkinter`](https://docs.python.org/3/library/tkinter.html). 
+A simple text editor developed by using the tkinter library can be found
+[in this python module](https://github.com/vladaindjic/SPC-exchange-students/blob/master/GUIAppExample/text_editor.py).
+
+
+### Pygments Lexer
+
+[Pygments package](https://github.com/vladaindjic/SPC-exchange-students/blob/master/GUIAppExample/text_editor.py) contains a set of lexer for different programming languages implemented in Python.
+A example of using the Pygments Python Lexer to do the lexical analysis on simple Python source code
+can be found [in this python module](https://github.com/vladaindjic/SPC-exchange-students/blob/master/LexerExample/tokenizer.py).
+
+
 # The Project Specification - Extensible Code Editor
+
+The project specification for this course can be found [in this document](https://github.com/vladaindjic/SPC-exchange-students/blob/master/SPEC.md).
 
