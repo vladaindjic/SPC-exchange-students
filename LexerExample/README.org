@@ -1,0 +1,23 @@
+#+title: Lexical Analysis in Python
+#+author: Vladimir Inđić
+#+OPTIONS: date:nil
+#+OPTIONS: toc:nil
+
+* Lexical Analysis in Python
+According to [[https://en.wikipedia.org/wiki/Lexical_analysis][Wikipedia]]: "In computer science, lexical analysis, lexing or tokenization is the 
+process of converting a sequence of characters (such as in a computer program or web page) 
+into a sequence of tokens (strings with an assigned and thus identified meaning). 
+A program that performs lexical analysis may be termed a lexer, tokenizer, or scanner, 
+although scanner is also a term for the first stage of a lexer. 
+A lexer is generally combined with a parser, which together analyze the syntax of programming languages" 
+
+** Pygments package
+
+[[https://pygments.org/][Pygments package]] provides [[https://pygments.org/docs/lexers/][a set of Lexers for different programming languages]] implemented in Python.
+To install this package in you virtual environment, execute this command:
+#+begin_src shell
+pip install Pygments
+#+end_src
+An example of using Python Lexer to do the lexical analysis of the simple Python program
+can be found [[https://github.com/vladaindjic/SPC-exchange-students/blob/master/LexerExample/tokenizer.py][inside ~tokenizer.py~ modules]]. For more information, see the source code
+of the module.
