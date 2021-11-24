@@ -13,6 +13,8 @@
   - ~AddOperator~
   - ~SubstractOperator~
 
+  The component diagram of this extensible application can be found here.
+  
 ** ~Core~
    [[https://github.com/vladaindjic/SPC-exchange-students/tree/master/ComponentsSimple/Core][~Core~ component]] specifies [[https://github.com/vladaindjic/SPC-exchange-students/blob/master/ComponentsSimple/Core/plugin/operator/core/services/operator.py][an abstract implementation of a mathematical operator]].
    It also specifies [[https://github.com/vladaindjic/SPC-exchange-students/blob/master/ComponentsSimple/Core/plugin/operator/core/console_main.py][the script]] that can be run from the terminal/console upon installation.
