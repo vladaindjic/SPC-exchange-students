@@ -11,6 +11,8 @@ The application consists of three components:
 -   `AddOperator`
 -   `SubstractOperator`
 
+The component diagram of this extensible application can be found [here](https://github.com/vladaindjic/SPC-exchange-students/tree/master/ComponentsSimple/diagrams).
+
 
 ## `Core`
 
