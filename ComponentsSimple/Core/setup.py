@@ -12,6 +12,8 @@ setup(
     # "Namespace packages allow you to split the sub-packages and modules
     # within a single package across multiple, separate distribution packages"
     # See for more https://packaging.python.org/guides/packaging-namespace-packages/
+    # This arguments needs to be paired with the call of declare_namespace()
+    # given inside __init__.py modules.
     namespace_packages=['plugin', 'plugin.operator'],
     # What this package distribution provides to other packages.
     # This is how the OperatorBase class is exported to be inherited
