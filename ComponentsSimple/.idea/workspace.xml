@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdfa53bc-102e-40d2-b50b-a18c3ce7af13" name="Default" comment="" />
+    <list default="true" id="fdfa53bc-102e-40d2-b50b-a18c3ce7af13" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/plugin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/plugin/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Core/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubtractOperator/plugin/operator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubtractOperator/plugin/operator/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../vezbe/05/publish/DIExample/Vezbe5DI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -309,6 +314,7 @@
       <workItem from="1637411282653" duration="448000" />
       <workItem from="1637417831733" duration="5018000" />
       <workItem from="1637568016174" duration="42000" />
+      <workItem from="1640346106847" duration="1125000" />
     </task>
     <servers />
   </component>
